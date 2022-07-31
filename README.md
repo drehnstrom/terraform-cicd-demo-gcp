@@ -17,9 +17,11 @@ This repository demonstrates using Github Actions to create a CI/CD pipeline tha
 
 1. Navigate to thie following repository and fork it into your account: https://github.com/drehnstrom/terraform-cicd-demo-gcp 
 
+1. Click on the __Actions__ menu. Then, click the __I understand my workflows, go ahead and enable them__ button. 
+
 1. In your new repository, click on __Settings__, then __Secrets | Actions__.
 
-1. Create a new respository secret with the name `GOOGLE_CREDENTIALS`. The value or the secret will be the contents of your `key.json` file, but with the new line characters removed. Use the following bash command to strip newline characters: `cat key.json | tr -s '\n' ' '`. Run this command from the folder where you saved your Service Account key file. 
+1. Create a new repository secret with the name `GOOGLE_CREDENTIALS`. The value or the secret will be the contents of your `key.json` file, but with the new line characters removed. Use the following bash command to strip newline characters: `cat key.json | tr -s '\n' ' '`. Run this command from the folder where you saved your Service Account key file. 
 
 1. Once the secret is created navigate to the file `space-invaders/provider.tf` in your GitHub repository. 
 
