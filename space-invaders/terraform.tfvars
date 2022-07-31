@@ -1,2 +1,2 @@
 project_id = "doug-rehnstrom"
-instance_count = 0
+instance_count = 1
