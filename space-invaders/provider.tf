@@ -5,6 +5,10 @@ terraform {
       version = "~> 3.0"
     }
   }
+  backend "gcs" {
+    bucket  = "doug-rehnstrom-tfstate"
+    prefix  = "cicd-demo/state"
+  }
 }
 
 provider "google" {
