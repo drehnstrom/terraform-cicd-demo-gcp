@@ -15,7 +15,7 @@ This repository demonstrates using Github Actions to create a CI/CD pipeline tha
 
 1. Log onto your GitHub account.  
 
-1. Navigate to thie following repository and fork it into your account: https://github.com/drehnstrom/terraform-cicd-demo-gcp 
+1. Navigate to the following repository and fork it into your account: https://github.com/drehnstrom/terraform-cicd-demo-gcp 
 
 1. Click on the __Actions__ menu. Then, click the __I understand my workflows, go ahead and enable them__ button. 
 
